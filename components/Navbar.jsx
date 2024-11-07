@@ -1,11 +1,11 @@
 'use client';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';  // Import useRouter
+import { useRouter } from 'next/navigation';  
 
 const Navbar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const router = useRouter();  // Initialize router
+  const router = useRouter();  
 
   useEffect(() => {
     const currentUser = localStorage.getItem('currentUser');

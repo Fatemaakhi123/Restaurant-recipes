@@ -32,7 +32,6 @@ const Login = () => {
 
     const proceed = confirm('Login successful! Do you want to continue?');
     if (proceed) {
-      // Navigate to the home page after successful login
       router.push('/');
     } else {
       router.push('/login');

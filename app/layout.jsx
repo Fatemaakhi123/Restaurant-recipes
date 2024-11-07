@@ -27,8 +27,6 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <TanstackProvider>
-          
-
           {children}
         </TanstackProvider>
       </body>
