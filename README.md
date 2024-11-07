@@ -17,9 +17,9 @@ are defined as dependencies or devDependencies in your package.json
 file. It's possible that the missing plugin is loaded by a preset
 you are using that forgot to add the plugin to its dependencies: you
 can workaround this problem by explicitly adding the missing package
-to your top-level package.json.--still this problems are sticked---
+to your top-level package.json.--
 
-solved using .eslintrc.json where {
+solved this bug using .eslintrc.json where {
   "extends": ["next","next/core-web-vitals"],
   "parser": "babel/eslint-parser"
 }
